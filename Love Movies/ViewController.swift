@@ -86,6 +86,9 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+       let storyboard = UIStoryboard(name:"Main", bundle: nil)
+        let signInVC = storyboard.instantiateViewController(withIdentifier: "detalhesFilmes")
+        self.present(signInVC, animated: false, completion:  nil)
         //Show movie details
     }
 

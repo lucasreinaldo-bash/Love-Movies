@@ -15,6 +15,7 @@
 		834F6ABC24F5D2E000173211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834F6ABA24F5D2E000173211 /* LaunchScreen.storyboard */; };
 		834F6AC524F5F14600173211 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6AC324F5F14600173211 /* MovieTableViewCell.swift */; };
 		834F6AC624F5F14600173211 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834F6AC424F5F14600173211 /* MovieTableViewCell.xib */; };
+		836B74E824F7C07400CBF2C5 /* DetalhesFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		834F6ABD24F5D2E000173211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834F6AC324F5F14600173211 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		834F6AC424F5F14600173211 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesFilmeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				834F6ABD24F5D2E000173211 /* Info.plist */,
 				834F6AC324F5F14600173211 /* MovieTableViewCell.swift */,
 				834F6AC424F5F14600173211 /* MovieTableViewCell.xib */,
+				836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */,
 			);
 			path = "Love Movies";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				834F6AB424F5D2DC00173211 /* ViewController.swift in Sources */,
 				834F6AB024F5D2DC00173211 /* AppDelegate.swift in Sources */,
+				836B74E824F7C07400CBF2C5 /* DetalhesFilmeViewController.swift in Sources */,
 				834F6AC524F5F14600173211 /* MovieTableViewCell.swift in Sources */,
 				834F6AB224F5D2DC00173211 /* SceneDelegate.swift in Sources */,
 			);
