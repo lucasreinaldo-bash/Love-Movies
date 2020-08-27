@@ -18,10 +18,10 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        table.register(MovieTableViewCell.nib(), forCellReuseIdentifier: MovieTableViewCell.indentifier)
-        table.delegate = self
-        table.dataSource = self
+      
+        
         field.delegate = self
+        field.placeholder = "Qual filme você deseja encontrar ?"
         // Do any additional setup after loading the view.
         
     }
@@ -33,6 +33,9 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
         return true
     }
     func searchMovies(){
+        table.register(MovieTableViewCell.nib(), forCellReuseIdentifier: MovieTableViewCell.indentifier)
+              table.delegate = self
+              table.dataSource = self
         field.resignFirstResponder()
         
         guard let text = field.text, !text.isEmpty else {
