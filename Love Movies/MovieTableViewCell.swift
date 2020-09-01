@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class MovieTableViewCell: UITableViewCell {
 
     @IBOutlet var movieTitleLabel: UILabel!
     @IBOutlet var movieYearLabel: UILabel!
-    @IBOutlet var moviePosterImageView: UIImageView!
+    
+    @IBOutlet weak var moviePosterImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -36,9 +38,10 @@ class MovieTableViewCell: UITableViewCell {
         self.movieTitleLabel.text = model.Title
         self.movieYearLabel.text = model.Year
         let url = model.Poster
-//        if let data = try? Data(contentsOf: URL(string: url)!){
-//             self.moviePosterImageView.image = UIImage(data: data)
-//        }
+        if let data = try? Data(contentsOf: URL(string: url)!){
+             self.moviePosterImageView.image = UIImage(data: data)
+            self.moviePosterImageView.layer.cornerRadius = self.moviePosterImageView.frame.height / 10
+        }
        
         
     }

@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72E8F359565E9E4F7F686F71 /* Pods_Love_Movies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B48BA908E543ED3C941E9E6 /* Pods_Love_Movies.framework */; };
+		8338D73A24FC2C8600DCBC3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8338D73924FC2C8600DCBC3A /* GoogleService-Info.plist */; };
+		8338D73D24FC377B00DCBC3A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338D73C24FC377B00DCBC3A /* LoginController.swift */; };
+		8338D73F24FC378800DCBC3A /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338D73E24FC378800DCBC3A /* RegistroController.swift */; };
+		8338D74124FC37B400DCBC3A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338D74024FC37B400DCBC3A /* HomeController.swift */; };
+		8338D74324FC381700DCBC3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338D74224FC381700DCBC3A /* Extensions.swift */; };
 		834F6AB024F5D2DC00173211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6AAF24F5D2DC00173211 /* AppDelegate.swift */; };
 		834F6AB224F5D2DC00173211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6AB124F5D2DC00173211 /* SceneDelegate.swift */; };
 		834F6AB424F5D2DC00173211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6AB324F5D2DC00173211 /* ViewController.swift */; };
@@ -16,9 +22,18 @@
 		834F6AC524F5F14600173211 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F6AC324F5F14600173211 /* MovieTableViewCell.swift */; };
 		834F6AC624F5F14600173211 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834F6AC424F5F14600173211 /* MovieTableViewCell.xib */; };
 		836B74E824F7C07400CBF2C5 /* DetalhesFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */; };
+		83D9474524F83E93004B61B5 /* FilmeEscolhidoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9474424F83E93004B61B5 /* FilmeEscolhidoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4053FC8832E6BAAAD2744560 /* Pods-Love Movies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Movies.debug.xcconfig"; path = "Target Support Files/Pods-Love Movies/Pods-Love Movies.debug.xcconfig"; sourceTree = "<group>"; };
+		689A4EE29556C73084DE9A52 /* Pods-Love Movies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Movies.release.xcconfig"; path = "Target Support Files/Pods-Love Movies/Pods-Love Movies.release.xcconfig"; sourceTree = "<group>"; };
+		7B48BA908E543ED3C941E9E6 /* Pods_Love_Movies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Movies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8338D73924FC2C8600DCBC3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8338D73C24FC377B00DCBC3A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8338D73E24FC378800DCBC3A /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		8338D74024FC37B400DCBC3A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8338D74224FC381700DCBC3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		834F6AAC24F5D2DC00173211 /* Love Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834F6AAF24F5D2DC00173211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		834F6AB124F5D2DC00173211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +45,7 @@
 		834F6AC324F5F14600173211 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		834F6AC424F5F14600173211 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesFilmeViewController.swift; sourceTree = "<group>"; };
+		83D9474424F83E93004B61B5 /* FilmeEscolhidoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeEscolhidoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72E8F359565E9E4F7F686F71 /* Pods_Love_Movies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A41AF63EA8054844D273CE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4053FC8832E6BAAAD2744560 /* Pods-Love Movies.debug.xcconfig */,
+				689A4EE29556C73084DE9A52 /* Pods-Love Movies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8338D73B24FC375100DCBC3A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8338D73C24FC377B00DCBC3A /* LoginController.swift */,
+				8338D73E24FC378800DCBC3A /* RegistroController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		834F6AA324F5D2DC00173211 = {
 			isa = PBXGroup;
 			children = (
 				834F6AAE24F5D2DC00173211 /* Love Movies */,
 				834F6AAD24F5D2DC00173211 /* Products */,
+				6A41AF63EA8054844D273CE5 /* Pods */,
+				8E4E912F8BDDDDD192D87510 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +99,9 @@
 		834F6AAE24F5D2DC00173211 /* Love Movies */ = {
 			isa = PBXGroup;
 			children = (
+				8338D73B24FC375100DCBC3A /* Login */,
+				8338D73924FC2C8600DCBC3A /* GoogleService-Info.plist */,
+				83D9474324F83E78004B61B5 /* Models */,
 				834F6AAF24F5D2DC00173211 /* AppDelegate.swift */,
 				834F6AB124F5D2DC00173211 /* SceneDelegate.swift */,
 				834F6AB324F5D2DC00173211 /* ViewController.swift */,
@@ -72,8 +112,26 @@
 				834F6AC324F5F14600173211 /* MovieTableViewCell.swift */,
 				834F6AC424F5F14600173211 /* MovieTableViewCell.xib */,
 				836B74E724F7C07400CBF2C5 /* DetalhesFilmeViewController.swift */,
+				8338D74024FC37B400DCBC3A /* HomeController.swift */,
+				8338D74224FC381700DCBC3A /* Extensions.swift */,
 			);
 			path = "Love Movies";
+			sourceTree = "<group>";
+		};
+		83D9474324F83E78004B61B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83D9474424F83E93004B61B5 /* FilmeEscolhidoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E4E912F8BDDDDD192D87510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B48BA908E543ED3C941E9E6 /* Pods_Love_Movies.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834F6AC024F5D2E000173211 /* Build configuration list for PBXNativeTarget "Love Movies" */;
 			buildPhases = (
+				3DC26BA60A9587696D4BC380 /* [CP] Check Pods Manifest.lock */,
 				834F6AA824F5D2DC00173211 /* Sources */,
 				834F6AA924F5D2DC00173211 /* Frameworks */,
 				834F6AAA24F5D2DC00173211 /* Resources */,
+				E4C9647DCEB7E8117104D211 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,12 +196,55 @@
 			files = (
 				834F6ABC24F5D2E000173211 /* LaunchScreen.storyboard in Resources */,
 				834F6AB924F5D2E000173211 /* Assets.xcassets in Resources */,
+				8338D73A24FC2C8600DCBC3A /* GoogleService-Info.plist in Resources */,
 				834F6AC624F5F14600173211 /* MovieTableViewCell.xib in Resources */,
 				834F6AB724F5D2DC00173211 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DC26BA60A9587696D4BC380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love Movies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C9647DCEB7E8117104D211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love Movies/Pods-Love Movies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love Movies/Pods-Love Movies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love Movies/Pods-Love Movies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		834F6AA824F5D2DC00173211 /* Sources */ = {
@@ -152,7 +255,12 @@
 				834F6AB024F5D2DC00173211 /* AppDelegate.swift in Sources */,
 				836B74E824F7C07400CBF2C5 /* DetalhesFilmeViewController.swift in Sources */,
 				834F6AC524F5F14600173211 /* MovieTableViewCell.swift in Sources */,
+				83D9474524F83E93004B61B5 /* FilmeEscolhidoModel.swift in Sources */,
+				8338D74324FC381700DCBC3A /* Extensions.swift in Sources */,
+				8338D74124FC37B400DCBC3A /* HomeController.swift in Sources */,
 				834F6AB224F5D2DC00173211 /* SceneDelegate.swift in Sources */,
+				8338D73F24FC378800DCBC3A /* RegistroController.swift in Sources */,
+				8338D73D24FC377B00DCBC3A /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,10 +402,12 @@
 		};
 		834F6AC124F5D2E000173211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4053FC8832E6BAAAD2744560 /* Pods-Love Movies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Love Movies/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,10 +421,12 @@
 		};
 		834F6AC224F5D2E000173211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689A4EE29556C73084DE9A52 /* Pods-Love Movies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Love Movies/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

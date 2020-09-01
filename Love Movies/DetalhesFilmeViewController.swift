@@ -10,10 +10,17 @@ import UIKit
 
 class DetalhesFilmeViewController: UIViewController {
 
-    @IBOutlet weak var capaFilme: UIImageView!
-    override func viewDidLoad() {
+   
+  
+   override func viewDidLoad() {
         super.viewDidLoad()
 
+//        labelTitulo.text! = getName
+//        self.tituloLabel.text = "Deus no comando"
+        
+        
+        
+        
     }
     
 
@@ -26,26 +33,6 @@ class DetalhesFilmeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    func configure(with model: Movie){
-       let url = model.Poster
-        if let data = try? Data(contentsOf: URL(string: url)!){
-             self.capaFilme.image = UIImage(data: data)
-        }
-       
-        
-    }
-}
-extension UIImageView {
-    func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                    }
-                }
-            }
-        }
-    }
     
 }
+

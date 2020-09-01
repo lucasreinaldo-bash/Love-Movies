@@ -13,6 +13,10 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
     @IBOutlet var table: UITableView!
     @IBOutlet var field: UITextField!
    
+    @IBAction func btn_continuar(_ sender: Any) {
+    }
+    
+  
     var movies = [Movie]()
     
     override func viewDidLoad() {
@@ -26,6 +30,9 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
         
     }
     
+    @objc func proximaTela (){
+          navigationController?.pushViewController(LoginController(), animated: true)
+    }
     //Field
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
     
@@ -80,6 +87,7 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell =  tableView.dequeueReusableCell(withIdentifier: MovieTableViewCell.indentifier, for: indexPath) as! MovieTableViewCell
         cell.configure(with: movies[indexPath.row])
+        
         return cell
     }
     
@@ -87,8 +95,9 @@ class ViewController: UIViewController,UITextFieldDelegate, UITableViewDelegate 
         tableView.deselectRow(at: indexPath, animated: true)
         
        let storyboard = UIStoryboard(name:"Main", bundle: nil)
-        let signInVC = storyboard.instantiateViewController(withIdentifier: "detalhesFilmes")
-        self.present(signInVC, animated: false, completion:  nil)
+        let detalhesViewController = storyboard.instantiateViewController(withIdentifier: "detalhesFilmes") as! DetalhesFilmeViewController
+        
+        self.present(detalhesViewController, animated: false)
         //Show movie details
     }
 
